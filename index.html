@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Moodle-block theme selector by gjb2048</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Moodle-block theme selector</h1>
+        <h2>A block to quickly change themes. Great for theme developers! Requires the Moodle jQuery plugin: https://github.com/johntron/moodle-jquery-plugin</h2>
+        <a href="https://github.com/gjb2048/moodle-block_theme_selector" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="moodle-theme-selector-block" class="anchor" href="#moodle-theme-selector-block" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Moodle theme selector (block)</h1>
+
+<p>A block to quickly change themes.  Great for theme developers!</p>
+
+<p><a href="https://travis-ci.org/gjb2048/moodle-block_theme_selector"><img src="https://travis-ci.org/gjb2048/moodle-block_theme_selector.svg" alt="Build Status"></a></p>
+
+<h1>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h1>
+
+<ul>
+<li>copyright  © 2015-onwards G J Barnard in respect to modifications of original code:</li>
+<li>           <a href="https://github.com/johntron/moodle-theme-selector-block">https://github.com/johntron/moodle-theme-selector-block</a> by John Tron, see:
+          <a href="https://github.com/johntron/moodle-theme-selector-block/issues/1">https://github.com/johntron/moodle-theme-selector-block/issues/1</a>.</li>
+<li>author     G J Barnard - <a href="http://about.me/gjbarnard">http://about.me/gjbarnard</a> and <a href="http://moodle.org/user/profile.php?id=442195">http://moodle.org/user/profile.php?id=442195</a>
+</li>
+<li>license    <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> GNU GPL v3 or later</li>
+</ul>
+
+<h1>
+<a id="required-version-of-moodle" class="anchor" href="#required-version-of-moodle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Required version of Moodle</h1>
+
+<p>This version works with Moodle version 2015051100.00 release 2.9 (Build: 20150511) and above within the 2.9 branch until the
+next release and Moodle version 2015111600.00 3.0 (Build: 20151116) and above within the 3.0 branch until the
+next release.</p>
+
+<p>Please ensure that your hardware and software complies with 'Requirements' in 'Installing Moodle' on
+'docs.moodle.org/29/en/Installing_Moodle' / 'docs.moodle.org/30/en/Installing_Moodle'.</p>
+
+<h1>
+<a id="free-software" class="anchor" href="#free-software" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Free Software</h1>
+
+<p>The theme selector block is 'free' software under the terms of the GNU GPLv3 License, please see 'COPYING.txt'.</p>
+
+<p>It can be obtained for free from:
+<a href="https://github.com/gjb2048/moodle-block_theme_selector">https://github.com/gjb2048/moodle-block_theme_selector</a></p>
+
+<p>You have all the rights granted to you by the GPLv3 license.  If you are unsure about anything, then the
+FAQ - <a href="http://www.gnu.org/licenses/gpl-faq.html">http://www.gnu.org/licenses/gpl-faq.html</a> - is a good place to look.</p>
+
+<p>If you reuse any of the code then I kindly ask that you make reference to the theme.</p>
+
+<p>If you make improvements or bug fixes then I would appreciate if you would send them back to me by forking from
+<a href="https://github.com/gjb2048/moodle-block_theme_selector">https://github.com/gjb2048/moodle-block_theme_selector</a> and doing a 'Pull Request' so that the rest of the
+Moodle community benefits.</p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
+
+<ol>
+<li>Follow <a href="http://docs.moodle.org/29/en/Installing_plugins#Installation">Moodle's instructions for installing plugins</a>.</li>
+<li>Turn editing mode on.</li>
+<li>Go to Site administration -&gt; Plugins -&gt; Blocks -&gt; Theme selector and decide if you want URL switching or not.
+When URL Switching is off only users with the 'moodle/site:config' capability will be able to change themes.
+Theme changes are permenant for all.
+When URL Switching is on everybody can change the theme but it will only be for them.  The set site theme will
+remain as set by a user with 'moodle/site:config' capability.</li>
+<li>Add the "Theme selector" block wherever you like.</li>
+<li>The selector will show the current theme as the one selected.</li>
+</ol>
+
+<h1>
+<a id="version-information" class="anchor" href="#version-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version Information</h1>
+
+<p>See Changes.md</p>
+
+<h1>
+<a id="me" class="anchor" href="#me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Me</h1>
+
+<p>G J Barnard MSc. BSc(Hons)(Sndw). MBCS. CEng. CITP. PGCE.
+Moodle profile: <a href="http://moodle.org/user/profile.php?id=442195">http://moodle.org/user/profile.php?id=442195</a>.
+Web profile   : <a href="http://about.me/gjbarnard">http://about.me/gjbarnard</a></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/gjb2048/moodle-block_theme_selector/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/gjb2048/moodle-block_theme_selector/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/gjb2048/moodle-block_theme_selector"></a> is maintained by <a href="https://github.com/gjb2048">gjb2048</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
